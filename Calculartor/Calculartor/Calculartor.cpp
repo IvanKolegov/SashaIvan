@@ -3,6 +3,7 @@
 
 #include "stdafx.h" 
 #include <iostream> 
+#include "Functions.h"
 using namespace std; 
  
 	 int main(int argc, char* argv[]) 
@@ -19,22 +20,22 @@ using namespace std;
 	 { 
 		 case 1: // если count = 1 
 	 { 
-			 
+			 cout << "Sum= " << MySum(a, b) << endl;
 			 break; 
 	 } 
 		 case 2: // если count = 2 
 		 { 
-			 
+			 cout << "Sub= " << MySub(a, b) << endl;
 			 break; 
 		 }
 		 case 3: // если count = 3 
 		 { 
-			 
+			 cout << "Mul= " << MyMul(a, b) << endl;
 			 break; 
 		 } 
 		 case 4: // если count = 4 
 		 { 
-			 
+			 cout << "Div= " << MyDiv(a, b) << endl;
 			 break; 
 		 } 
 		 default: // если count равно любому другому значению
