@@ -15,7 +15,7 @@ double MySub(double a, double b)
 
 double MyMul(double a, double b)
 {
-	// функция умножения
+	return a * b;
 }
 
 double MyDiv(double a, double b)
