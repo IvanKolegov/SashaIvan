@@ -1,6 +1,6 @@
 // function.cpp
 #include "stdafx.h"
-#include "funcs.h"
+#include "Functions.h"
 #include <cmath>
 
 double MySum(double a, double b)
